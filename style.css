@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+* {
+  transition: 0.3s;
+  box-sizing: border-box;
+  font-family: "PT Sans", sans-serif;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+header {
+  border: 0.1px solid rgba(235, 235, 235, 0.5450980392);
+  background-color: #ededed;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+header p {
+  font-size: 1.4rem;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+header nav a {
+  font-size: 1.2rem;
+  opacity: 0.7;
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  padding-top: 2rem;
+}
+main .main-info {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+}
+main .main-info img {
+  border-radius: 50%;
+  width: 400px;
+}
+main .main-info .info {
+  width: 50vw;
+  text-align: center;
+}
+main .main-info .info hr {
+  width: 45vw;
+}
+main .main-info .info h1 {
+  font-size: 3.3rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+main .main-info .info p {
+  font-size: 1.2rem;
+}
+main .main-info .info .links {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  margin-right: 2rem;
+}
+main .main-info .info .links a img {
+  width: 32px;
+}
+
+.main-projects {
+  background-color: #ededed;
+  margin-top: 2rem;
+  padding-top: 0.7rem;
+  padding-bottom: 100px;
+}
+.main-projects h1 {
+  text-align: center;
+  font-weight: 300;
+  line-height: 1.2;
+  font-size: 3.3rem;
+}
+.main-projects .all-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-projects .all-cards .card {
+  background-color: white;
+  border: 1px solid rgb(243, 230, 230);
+  border-radius: 10px;
+  width: 60vw;
+  display: flex;
+  gap: 3vw;
+}
+.main-projects .all-cards .card img {
+  width: 300px;
+  height: 300px;
+  border-bottom-left-radius: 13px;
+  border-top-left-radius: 10px;
+}
+.main-projects .all-cards .card h5 {
+  font-weight: 300;
+  line-height: 1.2;
+  font-size: 1.5rem;
+}
+.main-projects .all-cards .card .card-text {
+  font-weight: 300;
+  line-height: 1.2;
+  font-size: 1.2rem;
+  margin-top: -20px;
+}
+.main-projects .all-cards .card .instr {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+}
+.main-projects .all-cards .card .instr li {
+  padding: 5px;
+  border-radius: 15px;
+  color: white;
+  background-color: grey;
+  border: 1px solid gray;
+  font-weight: bold;
+}
+.main-projects .all-cards .card .about {
+  width: 120px;
+  height: 50px;
+  text-decoration: none;
+  color: black;
+  border: 1px solid gray;
+  padding: 0.7rem;
+  border-radius: 5px;
+  font-weight: 300;
+  line-height: 1.2;
+  font-size: 1.4;
+}
+.main-projects .all-cards .card .about:hover {
+  background-color: black;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
