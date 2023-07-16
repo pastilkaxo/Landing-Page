@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import 'resume';
 
 *{
-    transition: 0.3s;
+    transition: 0.15s;
     box-sizing: border-box;
     font-family: 'PT Sans', sans-serif;
 }
@@ -10,17 +11,21 @@ html {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 header {
+    padding: 1rem;
     border: 0.1px solid #ebebeb8b;
     background-color: #ededed;
     padding-left: 1.2rem;
     padding-right: 1.2rem;
     display: flex;
     justify-content:space-between;
-    p {
-        font-size: 1.4rem;
+    .name {
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: black;
     }
     nav{
         display: flex;
@@ -31,7 +36,7 @@ header {
           opacity: 0.7;          
             text-decoration: none;
             color: black; 
-            // MAKE ANIMATION !!!!!!!!!!!!!       
+           
         }
 
         
@@ -71,12 +76,18 @@ main {
                 a{
                     img {
                         width: 32px;
+                        opacity: 0.5;
+                    }
+                    img:hover {
+                        opacity: 1;
                     }
                 }
+              
             }
         }
     }
 }
+
 
 
 .main-projects {
@@ -107,10 +118,16 @@ text-align: center;
             border-bottom-left-radius: 13px;
             border-top-left-radius: 10px;
         }
-        h5 {
-   font-weight: 300;
-    line-height: 1.2;
-    font-size: 1.5rem; 
+        .sum {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 50px;
+            h5 {
+                font-weight: 300;
+                 line-height: 1.2;
+                 font-size: 1.5rem; 
+                     }
         }
         .card-text{
             font-weight: 300;
@@ -150,12 +167,23 @@ li {
 background-color: black;
 color: white;
 }
-
-
-
-    }
+   }
+}
 }
 
-
-
+footer{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+        margin-left: 15px;
+        width: 32px;
+        height: 32px;
+        opacity: 0.4;
+    }
+    p {
+        margin-right: 15px;
+        opacity: 0.4;
+    }
 }

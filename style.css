@@ -1,6 +1,39 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+main .summury {
+  margin-top: -15px;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 200;
+}
+main .main-links {
+  display: flex;
+  justify-content: space-around;
+}
+main .main-links p {
+  font-size: 1.2rem;
+}
+main .main-links ul {
+  list-style-type: none;
+}
+main .main-links ul li {
+  padding: 5px;
+}
+main .main-links ul li a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #0d6efd;
+}
+main .main-links ul li a img {
+  opacity: 0.6;
+}
+main .main-links ul li a img:hover {
+  opacity: 1;
+}
+
 * {
-  transition: 0.3s;
+  transition: 0.15s;
   box-sizing: border-box;
   font-family: "PT Sans", sans-serif;
 }
@@ -10,9 +43,11 @@ html {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 header {
+  padding: 1rem;
   border: 0.1px solid rgba(235, 235, 235, 0.5450980392);
   background-color: #ededed;
   padding-left: 1.2rem;
@@ -20,8 +55,10 @@ header {
   display: flex;
   justify-content: space-between;
 }
-header p {
-  font-size: 1.4rem;
+header .name {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: black;
 }
 header nav {
   display: flex;
@@ -70,6 +107,10 @@ main .main-info .info .links {
 }
 main .main-info .info .links a img {
   width: 32px;
+  opacity: 0.5;
+}
+main .main-info .info .links a img:hover {
+  opacity: 1;
 }
 
 .main-projects {
@@ -103,7 +144,13 @@ main .main-info .info .links a img {
   border-bottom-left-radius: 13px;
   border-top-left-radius: 10px;
 }
-.main-projects .all-cards .card h5 {
+.main-projects .all-cards .card .sum {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.main-projects .all-cards .card .sum h5 {
   font-weight: 300;
   line-height: 1.2;
   font-size: 1.5rem;
@@ -143,4 +190,21 @@ main .main-info .info .links a img {
 .main-projects .all-cards .card .about:hover {
   background-color: black;
   color: white;
+}
+
+footer {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer img {
+  margin-left: 15px;
+  width: 32px;
+  height: 32px;
+  opacity: 0.4;
+}
+footer p {
+  margin-right: 15px;
+  opacity: 0.4;
 }/*# sourceMappingURL=style.css.map */
