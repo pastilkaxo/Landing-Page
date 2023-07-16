@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+main {
+  margin-bottom: 110px;
+}
 main .summury {
   margin-top: -15px;
   text-align: center;
@@ -30,6 +33,36 @@ main .main-links ul li a img {
 }
 main .main-links ul li a img:hover {
   opacity: 1;
+}
+
+.resume-info {
+  margin-top: 50px;
+}
+.resume-info .line-between {
+  width: 50vw;
+}
+.resume-info .work {
+  display: flex;
+  justify-content: space-around;
+}
+.resume-info .work h2 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+.resume-info .skills {
+  display: flex;
+  justify-content: space-evenly;
+}
+.resume-info .education {
+  display: flex;
+  justify-content: space-evenly;
+}
+.resume-info h1 {
+  font-size: 3.3rem;
+  font-weight: 300;
+}
+.resume-info p {
+  font-size: 1.2rem;
 }
 
 * {
@@ -193,7 +226,6 @@ main .main-info .info .links a img:hover {
 }
 
 footer {
-  margin-top: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;

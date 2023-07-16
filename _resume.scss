@@ -1,7 +1,7 @@
 
 
 main {
-
+margin-bottom: 110px;
 .summury{
     margin-top: -15px;
     text-align: center;
@@ -37,6 +37,39 @@ main {
     }
   }
 }
+}
+
+.resume-info{
+    margin-top: 50px;
+    .line-between{
+        width: 50vw;
+    }
+    .work{
+display: flex;
+justify-content: space-around;
+h2{
+    font-size: 2rem;
+    font-weight: 300;
+}
+    }
+    .skills{
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    .education{
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    & h1{
+        font-size: 3.3rem;
+        font-weight: 300;
+    }
+    & p {
+        font-size: 1.2rem;
+    }
+
 }
 
 
