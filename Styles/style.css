@@ -145,7 +145,7 @@ header .name {
 header nav {
   display: flex;
   align-items: center;
-  gap: 35px;
+  gap: 15px;
 }
 header nav a {
   font-size: 1.2rem;
@@ -212,6 +212,9 @@ main .main-info .info .links a img:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  flex-wrap: wrap;
 }
 .main-projects .all-cards .card {
   background-color: white;
@@ -220,6 +223,9 @@ main .main-info .info .links a img:hover {
   width: 60vw;
   display: flex;
   gap: 3vw;
+}
+.main-projects .all-cards .card .card-info {
+  width: 100%;
 }
 .main-projects .all-cards .card img {
   width: 300px;
@@ -231,12 +237,14 @@ main .main-info .info .links a img:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 50px;
 }
 .main-projects .all-cards .card .sum h5 {
   font-weight: 300;
   line-height: 1.2;
   font-size: 1.5rem;
+}
+.main-projects .all-cards .card .sum p {
+  margin-right: 30px;
 }
 .main-projects .all-cards .card .card-text {
   font-weight: 300;
@@ -361,6 +369,9 @@ footer p {
     font-weight: 300;
     line-height: 1.2;
     font-size: 1.5rem;
+  }
+  .main-projects .all-cards .card .sum p {
+    margin-right: 0;
   }
   .main-projects .all-cards .card .card-text {
     font-weight: 300;
