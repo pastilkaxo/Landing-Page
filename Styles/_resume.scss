@@ -44,20 +44,21 @@ margin-bottom: 110px;
     .line-between{
         width: 50vw;
     }
-    .skills{
+    .year-info{
         display: flex;
         justify-content: space-evenly;
-        
-    }
-    .education{
-        display: flex;
-        justify-content: space-evenly;
-        
-    }
+         align-items: center;
+         .sk-info {
+                width: 500px;
+              }
+              .ed-info {
+                width: 550px;
+              }
+             }
     & h1{
         font-size: 3.3rem;
         font-weight: 300;
-    }
+      }
     & p {
         font-size: 1.2rem;
     }
@@ -101,20 +102,19 @@ margin-bottom: 110px;
             .line-between{
                 width: 50vw;
             }
-            .skills{
+            .year-info{
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                
+                 .ed-info {
+                    width: auto;
+                 }
+                 .sk-info{
+                    width: auto;
+                 }
             }
-            .education{
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                
-            }
+           
             & span{
 text-align: center;
 width: 90vw;
